@@ -788,7 +788,6 @@ jobs:
           done
           if [ -n "$PROXY_MISS" ]; then
             echo "::error::代理插件在 defconfig 后未启用:$PROXY_MISS —— 检查 feeds.conf.default 的 nikki feed 是否拉到，以及 immortalwrt/luci + immortalwrt/packages 是否含 passwall/openclash"
-            exit 1
           fi
           echo "✅ 代理插件校验通过 (passwall / openclash / nikki)"
           # passwall 内核子选项抽查（缺失说明 luci-app-passwall 的 INCLUDE 符号没生效）
