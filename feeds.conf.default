@@ -10,4 +10,4 @@ src-git pon_userspace https://github.com/pbs05/openwrt-pon-userspace.git
 #src-link custom /usr/src/openwrt/custom-feed
 # nikki：透明代理（mihomo 内核）+ LuCI 界面
 src-git nikki https://github.com/nikkinikki-org/OpenWrt-nikki.git
-src-git https://github.com/anothaDev/luci-theme-vantage.git
+src-git luci-theme-vantage https://github.com/anothaDev/luci-theme-vantage.git
